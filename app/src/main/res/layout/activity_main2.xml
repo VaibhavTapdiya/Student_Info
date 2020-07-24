@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="18dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student_Info" />
+
+    <TextView
+        android:id="@+id/sname1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name" />
+
+    <TextView
+        android:id="@+id/srollno1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Roll No." />
+
+    <TextView
+        android:id="@+id/smobileno1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile No." />
+
+    <TextView
+        android:id="@+id/semailid1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-mail Id" />
+
+    <Button android:id="@+id/ssubmit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+</LinearLayout>
